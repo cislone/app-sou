@@ -4,5 +4,7 @@ javascript:void(function() {
 		for (var i = 0; i < elms.length; i++) {
             elms[i].parentNode.removeChild(elms[i]);    
         }
-	} catch(e) {}
+	} catch(e) {
+		alert(e.toString());
+	}
 }())
