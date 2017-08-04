@@ -4,7 +4,8 @@
 		"name":"腾讯动漫",
 		"url":"http://m.ac.qq.com/",
 		"ua":"",
-		"js":""
+		"js":"",
+		"bar":0,
 	}
 	]
 }
