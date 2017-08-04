@@ -5,7 +5,8 @@
 		"url":"http://m.ac.qq.com/",
 		"ua":"",
 		"js":"https://cislone.github.io/app-sou/js/txdm.js",
-		"bar":0
+		"bar":0,
+		"block":[{"mode":0, "url":"http://ui.ptlogin2.qq.com/cgi-bin/login"}]
 	},{
 		"image":"http://mmbiz.qpic.cn/mmbiz_jpg/v74jVWhHZb8SYgOpZOUBjgzoQpgibEiapE4995iaSLr1JufriaZK492jkvxj7snRLXcshic7vT1fmxPGMYkX4mHn2VA/0?wx_fmt=jpeg",
 		"name":"妹子图",
