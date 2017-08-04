@@ -4,7 +4,7 @@
 		"name":"腾讯动漫",
 		"url":"http://m.ac.qq.com/",
 		"ua":"",
-		"js":"",
+		"js":"base64:amF2YXNjcmlwdDp2b2lkKGZ1bmN0aW9uKCkgewoJdHJ5IHsKCQl2YXIgZWxtcyA9IGdldEVsZW1lbnRzQnlDbGFzc05hbWUoImFwcC1ndWlkaW5nLWRvd25sb2FkIik7CgkJZm9yICh2YXIgaSA9IDA7IGkgPCBlbG1zLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgICAgIGVsbXNbaV0ucGFyZW50Tm9kZS5yZW1vdmVDaGlsZChlbG1zW2ldKTsgICAgCiAgICAgICAgfQoJfSBjYXRjaChlKSB7fQp9KCkp",
 		"bar":0
 	}
 	]
