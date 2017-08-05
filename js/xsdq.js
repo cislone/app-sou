@@ -17,5 +17,7 @@ javascript:void(function() {
 		
 		var elms = document.getElementsByClassName("public-module");
                 elms[elms.length - 1].parentNode.removeChild(elms[elms.length - 1]);
-	} catch(e) {}
+	} catch(e) {
+		alert(e.toString());
+	}
 }())
