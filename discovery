@@ -14,6 +14,13 @@
 		"ua":"",
 		"js":"",
 		"bar":1
-	},{		"image":"https://img2.km.com/bookimg/public/images/cover/58ca/thumb4/71489_large.jpg",		"name":"小说大全",		"url":"https://mbook.km.com/",		"ua":"",		"js":"",		"bar":1	}
-	]
+	},{		
+	        "image":"https://img2.km.com/bookimg/public/images/cover/58ca/thumb4/71489_large.jpg",		
+		"name":"小说大全",		
+		"url":"https://mbook.km.com/",		
+		"ua":"",		
+		"js":"",		
+		"bar":1,
+		"adblock":0
+	}]
 }
