@@ -1,5 +1,7 @@
 javascript:void(function() {
-	try { // home page
+	try {
+		alert("xxxxxxx");
+		
 		var elms = document.getElementsByClassName("header");
                 elms[0].parentNode.removeChild(elms[0]);
 		
@@ -17,6 +19,8 @@ javascript:void(function() {
 		
 		var elms = document.getElementsByClassName("public-module");
                 elms[elms.length - 1].parentNode.removeChild(elms[elms.length - 1]);
+		
+		alert("xxxxxx2x");
 	} catch(e) {
 		alert(e.toString());
 	}
