@@ -13,6 +13,11 @@ javascript:void(function() {
 			elm.parentNode.removeChild(elm);
 		} catch(e){}
 		
+		try {
+			var elms = document.getElementsByClassName("fixed-circle");
+	                elms[0].parentNode.removeChild(elms[0]);
+		} catch(e){}
+		
 		var elms = document.getElementsByClassName("img-banner");
                 elms[0].parentNode.removeChild(elms[0]);
 		
