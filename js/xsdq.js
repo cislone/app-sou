@@ -8,6 +8,11 @@ javascript:void(function() {
 			elm.parentNode.removeChild(elm);
 		} catch(e){}
 		
+		try {
+			var elm = document.getElementById("detail_download_bottom");
+			elm.parentNode.removeChild(elm);
+		} catch(e){}
+		
 		var elms = document.getElementsByClassName("img-banner");
                 elms[0].parentNode.removeChild(elms[0]);
 		
