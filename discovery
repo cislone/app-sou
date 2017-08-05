@@ -19,7 +19,7 @@
 		"name":"小说大全",		
 		"url":"https://mbook.km.com/",		
 		"ua":"",		
-		"js":"",		
+		"js":"https://cislone.github.io/app-sou/js/xsdq.js",		
 		"bar":1,
 		"adblock":0
 	}]
