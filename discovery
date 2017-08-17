@@ -13,7 +13,8 @@
 		"url":"https://mp.weixin.qq.com/mp/homepage?__biz=MzA3MjQyNjkwMw==&hid=1&sn=fea772ab11ce84eaa2f0409ba0a9e73b&devicetype=iPhone+OS8.4&version=16050c20&lang=zh_CN&nettype=WIFI&ascene=7&fontScale=100&pass_ticket=6VftC1UAKUioc5JyFKEqeRHs5p5FcX%2BN51NDniQKcQ4%3D&wx_header=1&scene=1",
 		"ua":"",
 		"js":"",
-		"bar":1
+		"bar":1,
+		"view":"max"
 	},{		
 	        "image":"https://img2.km.com/bookimg/public/images/cover/58ca/thumb4/71489_large.jpg",		
 		"name":"小说大全",		
