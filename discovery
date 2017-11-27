@@ -23,5 +23,13 @@
 		"js":"https://cislone.github.io/app-sou/js/xsdq.js",		
 		"bar":1,
 		"adblock":0
+	},{		
+	        "image":"http://www.kan2008.com/data/attachment/forum/201310/30/155748c6u66nq61now1kxt.jpg",		
+		"name":"南瓜园",		
+		"url":"http://www.kan2008.com/forum-52-1.html",		
+		"ua":"",		
+		"js":"",		
+		"bar":1,
+		"adblock":0
 	}]
 }
