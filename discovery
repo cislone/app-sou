@@ -30,6 +30,7 @@
 		"ua":"",		
 		"js":"",		
 		"bar":1,
-		"adblock":0
+		"adblock":0,
+		"view":"max"
 	}]
 }
