@@ -1,0 +1,9 @@
+{
+    config:{silentUpdate:[false|true], forceUpdate:[false|true]},
+    url:xxx,
+    title:xxx,
+    content:xxx,
+    versionName:xxxx,
+    versionCode:xxx,
+    updateVersion:[{min:xx, max:xx}, {...}, ...]
+}
