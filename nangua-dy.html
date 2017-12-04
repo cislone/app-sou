@@ -154,7 +154,8 @@
 			}
 			
 			function onJsoup(data) {
-				alert(base64decode(data));
+				alert(data);
+				alert(decodeURIComponent(data));
 			}
 			
 			var url = getQueryString("url", true);
