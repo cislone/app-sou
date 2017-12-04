@@ -15,9 +15,7 @@
 			}
 			
 			var url = getQueryString("url", true);
-			$.ajax({url: "bridge://jsoup?url=" + url, success: function(response, status,xhr){
-				
-			}});
+			window.open("bridge://jsoup?url=" + url);
 		</script>
 	
 		<div id="content">content</div>
