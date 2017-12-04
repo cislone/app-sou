@@ -5,8 +5,7 @@
 </head>
 	<body>
 		<script>	
-			function getQueryString(name, raw)
-			{
+			function getQueryString(name, raw) {
 				 var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
 				 var r = window.location.search.substr(1).match(reg);
 				 if (r != null)
@@ -14,8 +13,12 @@
 				 return null;
 			}
 			
+			function onJsoup(data) {
+				alert(data);
+			}
+			
 			var url = getQueryString("url", true);
-			window.location = "bridge://jsoup?url=" + url;
+			window.location.href = "bridge://jsoup?url=" + url;
 		</script>
 	
 		<div id="content">content</div>
