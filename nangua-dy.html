@@ -1,0 +1,25 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ <script src="http://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+</head>
+	<body>
+		<script>	
+			function getQueryString(name, raw)
+			{
+				 var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+				 var r = window.location.search.substr(1).match(reg);
+				 if (r != null)
+					return raw ? r[2] : unescape(r[2]); 
+				 return null;
+			}
+			
+			var url = getQueryString("url", true);
+			$.ajax({url: "bridge://jsoup?url=" + url, success: function(response, status,xhr){
+				
+			}});
+		</script>
+	
+		<div id="content">content</div>
+	</body>
+</html>
