@@ -16,7 +16,7 @@
 		"bar":0,
 		"block":[{"mode":0, "url":"http://ui.ptlogin2.qq.com/cgi-bin/login"}]
 	},{		
-	        "image":"https://img2.km.com/bookimg/public/images/cover/58ca/thumb4/71489_large.jpg",		
+	    "image":"https://img2.km.com/bookimg/public/images/cover/58ca/thumb4/71489_large.jpg",		
 		"name":"小说大全",		
 		"url":"https://mbook.km.com/",		
 		"ua":"",		
@@ -24,9 +24,18 @@
 		"bar":1,
 		"adblock":0
 	},{		
-	        "image":"http://www.kan2008.com/data/attachment/forum/201310/30/155748c6u66nq61now1kxt.jpg",		
+	    "image":"http://www.kan2008.com/data/attachment/forum/201310/30/155748c6u66nq61now1kxt.jpg",		
 		"name":"南瓜园",		
 		"url":"http://www.kan2008.com/forum-52-1.html",		
+		"ua":"",		
+		"js":"",		
+		"bar":1,
+		"adblock":1,
+		"view":"max"
+	},{		
+	    "image":"http://www.kan2008.com/data/attachment/forum/201310/30/155748c6u66nq61now1kxt.jpg",		
+		"name":"南瓜园电影",		
+		"url":"https://cislone.github.io/app-sou/nangua-dy.html?url=http://www.kan2008.com/forum-52-1.html",		
 		"ua":"",		
 		"js":"",		
 		"bar":1,
