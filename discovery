@@ -35,7 +35,7 @@
 	},{		
 	    "image":"http://www.kan2008.com/data/attachment/forum/201310/30/155748c6u66nq61now1kxt.jpg",		
 		"name":"南瓜园电影",		
-		"url":"https://cislone.github.io/app-sou/nangua-dy.html?url=http://www.kan2008.com/forum-52-1.html&t=1112wws",		
+		"url":"app-sou://site?type=simple&url=https%3a%2f%2fcislone.github.io%2fapp-sou%2fnanguady_site_rule%26_t%3d201712051613",
 		"ua":"",		
 		"js":"",		
 		"bar":1,
