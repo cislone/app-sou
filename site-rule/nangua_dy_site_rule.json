@@ -23,6 +23,7 @@
     "fun":"attr",
     "param":"href"
   },
+  "item-check":["url", "name"],
   "item":{
     "selector":"tbody[id^=normalthread_]",
     "fun":"",
