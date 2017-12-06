@@ -1,0 +1,53 @@
+{
+  "type":"",
+  "url":"http://www.kan2008.com/forum-52-1.html",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "prev":{
+    "selector":"",
+    "fun":"",
+    "param":""
+  },
+  "next":{
+    "selector":"div#pgt.bm.bw0.pgs.cl > span > div.pg > a.nxt",
+    "fun":"attr",
+    "param":"href"
+  },
+  "item":{
+    "selector":"tbody[id^=normalthread_]",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"th a",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"tr td.icn a img",
+      "fun":"attr",
+      "param":"src"
+    },
+    "name":{
+      "selector":"th a",
+      "fun":"text",
+      "param":"",
+      "regex":"(?=《)(.+?)(?<=》)",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"th a",
+      "fun":"text",
+      "param":""
+    }
+  }
+}
