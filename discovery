@@ -8,6 +8,15 @@
 		"bar":1,
 		"view":"max"
 	},{
+        "image":"http://www.kan2008.com/data/attachment/forum/201712/05/105930hs29s8zq9s75z8s2.jpg",
+        "name":"美女写真",
+        "url":"app-sou://site?type=miniCard&title=美女写真&url=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fnangua_meizi_site_rule.json%26_t%3d201712051613",
+        "ua":"",
+        "js":"",
+        "bar":1,
+        "adblock":1,
+        "view":"max"
+     },{
 		"image":"https://gtimg.ac.qq.com/h5/public/images/share-icon.png",
 		"name":"腾讯动漫",
 		"url":"http://m.ac.qq.com/",
@@ -23,23 +32,13 @@
 		"js":"https://cislone.github.io/app-sou/js/xsdq.js",		
 		"bar":1,
 		"adblock":0
-	},{		
-	    "image":"http://www.kan2008.com/data/attachment/forum/201310/30/155748c6u66nq61now1kxt.jpg",		
-		"name":"南瓜园",		
-		"url":"http://www.kan2008.com/forum-52-1.html",		
-		"ua":"",		
-		"js":"",		
-		"bar":1,
-		"adblock":1,
-		"view":"max"
-	},{		
+	},{
 	    "image":"http://www.kan2008.com/data/attachment/forum/201310/30/155748c6u66nq61now1kxt.jpg",		
 		"name":"南瓜园电影",		
-		"url":"app-sou://site?type=simple&url=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fnanguady_site_rule.json%26_t%3d201712051613",
+		"url":"app-sou://site?type=simple&title=南瓜园电影&url=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fnanguady_site_rule.json%26_t%3d201712051613",
 		"ua":"",		
 		"js":"",		
 		"bar":1,
-		"adblock":1,
-		"view":"max"
+		"adblock":1
 	}]
 }
