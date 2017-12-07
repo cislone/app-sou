@@ -22,32 +22,32 @@
     "fun":"attr",
     "param":"href"
   },
-  "item-check":["url", "image", "name"],
-  "item-action":"app-sou://site?type=maxCard&title={name}&siteRule={url}&siteUrl={url}",
+  "item-check":["image"],
+  "item-action":"app-sou://image?url={image}",
   "item":{
-    "selector":"tbody[id^=normalthread_]",
+    "selector":"ignore_js_op",
     "fun":"",
     "param":"",
     "url":{
-      "selector":"th a",
+      "selector":"img",
       "fun":"attr",
-      "param":"href"
+      "param":"file"
     },
     "image":{
-      "selector":"th img",
+      "selector":"img",
       "fun":"attr",
-      "param":"src"
+      "param":"file"
     },
     "name":{
-      "selector":"th a",
-      "fun":"text",
+      "selector":"",
+      "fun":"",
       "param":"",
       "regex":"",
       "replacement":""
     },
     "desc":{
-      "selector":"th a",
-      "fun":"text",
+      "selector":"",
+      "fun":"",
       "param":""
     }
   }
