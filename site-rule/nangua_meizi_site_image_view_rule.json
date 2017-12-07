@@ -1,6 +1,5 @@
 {
   "type":"",
-  "url":"http://www.kan2008.com/forum-52-1.html",
   "method":"",
   "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
   "referrer":"",
@@ -23,8 +22,8 @@
     "fun":"attr",
     "param":"href"
   },
-  "item-check":["url", "name"],
-  "item-action":"",
+  "item-check":["url", "image", "name"],
+  "item-action":"app-sou://site?type=maxCard&title={name}&siteRule={url}&siteUrl={url}",
   "item":{
     "selector":"tbody[id^=normalthread_]",
     "fun":"",
@@ -35,7 +34,7 @@
       "param":"href"
     },
     "image":{
-      "selector":"tr td.icn a img",
+      "selector":"th img",
       "fun":"attr",
       "param":"src"
     },
@@ -43,7 +42,7 @@
       "selector":"th a",
       "fun":"text",
       "param":"",
-      "regex":"(?=《)(.+?)(?<=》)",
+      "regex":"",
       "replacement":""
     },
     "desc":{
