@@ -12,7 +12,7 @@
      },{
 		"image":"https://gtimg.ac.qq.com/h5/public/images/share-icon.png",
 		"name":"腾讯动漫",
-		"url":"app-sou://web?url=http://m.ac.qq.com&ua=&js=https://cislone.github.io/app-sou/js/txdm.js&bar=0&block=http://ui.ptlogin2.qq.com/cgi-bin/login:mode:0",
+		"url":"app-sou://web?url=http://m.ac.qq.com&ua=&js=https://cislone.github.io/app-sou/js/txdm.js&bar=0&block=http://ui.ptlogin2.qq.com/cgi-bin/login:mode:0"
 	},{		
 	    "image":"https://img2.km.com/bookimg/public/images/cover/58ca/thumb4/71489_large.jpg",		
 		"name":"小说大全",		
