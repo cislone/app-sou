@@ -23,6 +23,7 @@
     "fun":"attr",
     "param":"href"
   },
+  "image-placeholder":"ic_dl_video",
   "item-check":["url", "name"],
   "item-action":"",
   "item":{
@@ -37,7 +38,9 @@
     "image":{
       "selector":"tr td.icn a img",
       "fun":"attr",
-      "param":"src"
+      "param":"src",
+      "regex":"(.*)",
+      "replacement":"android.resource://drawable/ic_dl_video"
     },
     "name":{
       "selector":"th a",

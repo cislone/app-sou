@@ -23,6 +23,7 @@
     "fun":"attr",
     "param":"href"
   },
+  "image-placeholder":"ic_dl_folder",
   "item-check":["url", "image", "name"],
   "item-action":"app-sou://site?type=maxCard&title={name}&rule=https://cislone.github.io/app-sou/site-rule/nangua_meizi_site_image_view_rule.json&url={url}",
   "item":{
@@ -37,7 +38,9 @@
     "image":{
       "selector":"th img",
       "fun":"attr",
-      "param":"src"
+      "param":"src",
+      "regex":"(.*)",
+      "replacement":"android.resource://drawable/ic_dl_folder"
     },
     "name":{
       "selector":"th a",

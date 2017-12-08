@@ -18,12 +18,13 @@
     "param":""
   },
   "next":{
-    "selector":"div#pgt.bm.bw0.pgs.cl > span > div.pg > a.nxt",
-    "fun":"attr",
-    "param":"href"
+    "selector":"",
+    "fun":"",
+    "param":""
   },
+  "image-placeholder":"ic_dl_image",
   "item-check":["image"],
-  "item-action":"app-sou://image?url={image}",
+  "item-action":"app-sou://image?url={image}&rule={site}&item={item}",
   "item":{
     "selector":"ignore_js_op",
     "fun":"",
