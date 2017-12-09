@@ -1,6 +1,6 @@
 {
   "type":"",
-  "url":"http://www.meizitu.com/",
+  "url":"http://www.meizitu.com/a/more_1.html",
   "method":"",
   "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
   "referrer":"",
@@ -27,23 +27,23 @@
   "item-check":["url", "image"],
   "item-action":"app-sou://site?type=maxCard&title={name}&rule=https://cislone.github.io/app-sou/site-rule/meizitu_site_image_view_rule.json&url={url}",
   "item":{
-    "selector":"div.postContent",
+    "selector":"li.wp-item div.con",
     "fun":"",
     "param":"",
     "url":{
-      "selector":"a",
+      "selector":"div.pic a",
       "fun":"attr",
       "param":"href"
     },
     "image":{
-      "selector":"a > img",
+      "selector":"div.pic a img",
       "fun":"attr",
       "param":"src"
     },
     "name":{
-      "selector":"a",
-      "fun":"attr",
-      "param":"title"
+      "selector":"h3 a b",
+      "fun":"text",
+      "param":""
     },
     "desc":{
       "selector":"",
