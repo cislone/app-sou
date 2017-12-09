@@ -41,9 +41,9 @@
       "param":"src"
     },
     "name":{
-      "selector":"h3 a b",
-      "fun":"text",
-      "param":""
+      "selector":"div.pic a img",
+      "fun":"attr",
+      "param":"alt"
     },
     "desc":{
       "selector":"",
