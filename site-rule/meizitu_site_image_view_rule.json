@@ -24,7 +24,7 @@
   },
   "image-placeholder":"ic_dl_image",
   "item-check":["image"],
-  "item-action":"app-sou://image?url={image}&rule={site}&item={item}",
+  "item-action":"app-sou://site?type=photoView&title={name}&rule={site}",
   "item":{
     "selector":"div#picture p img",
     "fun":"",
