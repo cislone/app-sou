@@ -5,10 +5,15 @@
 		"view":"max",
 		"url":"app-sou://web?ua=&js=&bar=1&url=https%3a%2f%2fmp.weixin.qq.com%2fmp%2fhomepage%3f__biz%3dMzA3MjQyNjkwMw%3d%3d%26hid%3d1%26sn%3dfea772ab11ce84eaa2f0409ba0a9e73b%26devicetype%3diPhone%2bOS8.4%26version%3d16050c20%26lang%3dzh_CN%26nettype%3dWIFI%26ascene%3d7%26fontScale%3d100%26pass_ticket%3d6VftC1UAKUioc5JyFKEqeRHs5p5FcX%252BN51NDniQKcQ4%253D%26wx_header%3d1%26scene%3d1"
 	},{
+         "image":"http://mm.chinasareview.com/wp-content/uploads/2017a/07/21/02.jpg",
+         "name":"妹子写真",
+         "view":"max",
+         "url":"app-sou://site?type=miniCard&title=妹子写真&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fmeizitu_site_rule.json%3f_t%3d201712051613"
+     },{
         "image":"http://www.kan2008.com/data/attachment/forum/201712/05/105930hs29s8zq9s75z8s2.jpg",
         "name":"美女写真",
         "view":"max",
-        "url":"app-sou://site?type=miniCard&title=美女写真&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fnangua_meizi_site_rule.json%3f_t%3d201712051613"
+        "url":"app-sou://site?type=simple&title=美女写真&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fnangua_meizi_site_rule.json%3f_t%3d201712051613"
      },{
 		"image":"https://gtimg.ac.qq.com/h5/public/images/share-icon.png",
 		"name":"腾讯动漫",
@@ -19,7 +24,7 @@
 		"url":"app-sou://web?ua=&js=https://cislone.github.io/app-sou/js/xsdq.js&bar=1&adblock=0&url=https://mbook.km.com/"
 	},{
 	    "image":"http://www.kan2008.com/data/attachment/forum/201310/30/155748c6u66nq61now1kxt.jpg",		
-		"name":"南瓜园电影",		
-		"url":"app-sou://site?type=simple&title=南瓜园电影&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fnangua_dy_site_rule.json%3f_t%3d201712051613"
+		"name":"电影下载",
+		"url":"app-sou://site?type=simple&title=电影下载&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fnangua_dy_site_rule.json%3f_t%3d201712051613"
 	}]
 }

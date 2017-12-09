@@ -1,0 +1,54 @@
+{
+  "type":"",
+  "url":"http://www.meizitu.com/",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "prev":{
+    "selector":"",
+    "fun":"",
+    "param":""
+  },
+  "next":{
+    "selector":"div#wp_page_numbers ul li a:contains(下一页)",
+    "fun":"attr",
+    "param":"href"
+  },
+  "image-placeholder":"ic_dl_image",
+  "item-check":["url", "image"],
+  "item-action":"app-sou://site?type=maxCard&title={name}&rule=https://cislone.github.io/app-sou/site-rule/meizitu_site_image_view_rule.json&url={url}",
+  "item":{
+    "selector":"div.postContent",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"a",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"a > img",
+      "fun":"attr",
+      "param":"src"
+    },
+    "name":{
+      "selector":"a",
+      "fun":"attr",
+      "param":"title"
+    },
+    "desc":{
+      "selector":"",
+      "fun":"",
+      "param":""
+    }
+  }
+}

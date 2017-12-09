@@ -1,0 +1,53 @@
+{
+  "type":"",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "prev":{
+    "selector":"",
+    "fun":"",
+    "param":""
+  },
+  "next":{
+    "selector":"",
+    "fun":"",
+    "param":""
+  },
+  "image-placeholder":"ic_dl_image",
+  "item-check":["image"],
+  "item-action":"app-sou://image?url={image}&rule={site}&item={item}",
+  "item":{
+    "selector":"div#picture p img",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"this",
+      "fun":"attr",
+      "param":"src"
+    },
+    "image":{
+      "selector":"this",
+      "fun":"attr",
+      "param":"src"
+    },
+    "name":{
+      "selector":"",
+      "fun":"",
+      "param":""
+    },
+    "desc":{
+      "selector":"this",
+      "fun":"attr",
+      "param":"alt"
+    }
+  }
+}
