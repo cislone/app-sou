@@ -25,8 +25,8 @@
   "item-check":["image"],
   "item-action":"app-sou://site?type=photoView&title={name}&rule={site}",
   "item-view-template":{
-    "nameVisibleType":"",
-    "descVisibleType":"",
+    "nameVisibleType":"none",
+    "descVisibleType":"none",
     "nameRenderType":"",
     "descRenderType":"",
     "imageScaleType":"scale_fit_x",
