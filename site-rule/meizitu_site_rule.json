@@ -23,6 +23,43 @@
     "fun":"attr",
     "param":"href"
   },
+  "category-check":[],
+  "category-action":"",
+  "category-view-template":{
+    "nameVisibleType":"",
+    "descVisibleType":"",
+    "nameRenderType":"",
+    "descRenderType":"",
+    "imageScaleType":"",
+    "imagePlaceholder":""
+  },
+  "category":{
+    "selector":"",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"",
+      "fun":"",
+      "param":""
+    },
+    "image":{
+      "selector":"",
+      "fun":"attr",
+      "param":"src"
+    },
+    "name":{
+      "selector":"",
+      "fun":"",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"",
+      "fun":"",
+      "param":""
+    }
+  },
   "item-check":["url", "image"],
   "item-action":"app-sou://site?type=maxCard&title={name}&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fmeizitu_site_image_view_rule.json%3f_t%3d10000&url={url}",
   "item-view-template":{
