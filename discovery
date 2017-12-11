@@ -20,7 +20,7 @@
 	},{		
 	    "image":"https://img2.km.com/bookimg/public/images/cover/58ca/thumb4/71489_large.jpg",		
 		"name":"小说书城",
-		"url":"app-sou://web?ua=&js=&bar=0&adblock=0&url=http://dushu.m.baidu.com/"
+		"url":"app-sou://web?ua=&js=&bar=0&adblock=1&url=http://dushu.m.baidu.com/"
 	},{
 	    "image":"http://www.kan2008.com/data/attachment/forum/201310/30/155748c6u66nq61now1kxt.jpg",		
 		"name":"电影下载",
