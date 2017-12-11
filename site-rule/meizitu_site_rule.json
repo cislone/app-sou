@@ -26,10 +26,10 @@
   "item-check":["url", "image"],
   "item-action":"app-sou://site?type=maxCard&title={name}&rule=https://cislone.github.io/app-sou/site-rule/meizitu_site_image_view_rule.json&url={url}",
   "item-view-template":{
-    "nameVisibleType":"",
-    "descVisibleType":"",
+    "nameVisibleType":"empty_none",
+    "descVisibleType":"empty_none",
     "nameRenderType":"html",
-    "descRenderType":"",
+    "descRenderType":"html",
     "imageScaleType":"",
     "imagePlaceholder":"ic_dl_image"
   },
