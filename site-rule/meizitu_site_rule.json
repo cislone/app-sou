@@ -44,7 +44,7 @@
       "selector":"div.pic a img",
       "fun":"attr",
       "param":"alt",
-      "regex":"<(S*?)[^>]*>.*?|<.*? />",
+      "regex":"",
       "replacement":""
     },
     "desc":{
