@@ -19,11 +19,15 @@
 		"url":"app-sou://web?url=http://m.ac.qq.com&ua=&js=https://cislone.github.io/app-sou/js/txdm.js&bar=0&block=http://ui.ptlogin2.qq.com/cgi-bin/login:mode:0"
 	},{		
 	    "image":"https://img2.km.com/bookimg/public/images/cover/58ca/thumb4/71489_large.jpg",		
-		"name":"小说大全",		
-		"url":"app-sou://web?ua=&js=https://cislone.github.io/app-sou/js/xsdq.js&bar=1&adblock=0&url=https://mbook.km.com/"
+		"name":"小说书城",
+		"url":"app-sou://web?ua=&js=&bar=1&adblock=0&url=http://dushu.m.baidu.com/"
 	},{
 	    "image":"http://www.kan2008.com/data/attachment/forum/201310/30/155748c6u66nq61now1kxt.jpg",		
 		"name":"电影下载",
 		"url":"app-sou://site?type=simple&title=电影下载&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fnangua_dy_site_rule.json%3f_t%3d201712051613"
-	}]
+	},{
+        "image":"http://m.mp4pa.com/mp42.jpg",
+        "name":"在线视频",
+        "url":"app-sou://web?bar=1&adblock=1&title=在线视频&url=http://www.mp4pa.com/index.html"
+    }]
 }
