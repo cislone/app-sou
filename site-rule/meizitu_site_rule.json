@@ -23,9 +23,16 @@
     "fun":"attr",
     "param":"href"
   },
-  "image-placeholder":"ic_dl_image",
   "item-check":["url", "image"],
   "item-action":"app-sou://site?type=maxCard&title={name}&rule=https://cislone.github.io/app-sou/site-rule/meizitu_site_image_view_rule.json&url={url}",
+  "item-view-template":{
+    "nameVisibleType":"",
+    "descVisibleType":"",
+    "nameRenderType":"html",
+    "descRenderType":"",
+    "imageScaleType":"",
+    "imagePlaceholder":"ic_dl_image"
+  },
   "item":{
     "selector":"li.wp-item div.con",
     "fun":"",

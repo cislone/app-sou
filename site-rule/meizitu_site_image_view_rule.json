@@ -22,9 +22,16 @@
     "fun":"",
     "param":""
   },
-  "image-placeholder":"ic_dl_image",
   "item-check":["image"],
   "item-action":"app-sou://image?title={name}&url={image}&images={item-images}",
+  "item-view-template":{
+    "nameVisibleType":"",
+    "descVisibleType":"",
+    "nameRenderType":"html",
+    "descRenderType":"html",
+    "imageScaleType":"scale_fit_x",
+    "imagePlaceholder":"ic_dl_image"
+  },
   "item":{
     "selector":"div#picture p img",
     "fun":"",

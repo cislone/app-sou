@@ -23,9 +23,16 @@
     "fun":"attr",
     "param":"href"
   },
-  "image-placeholder":"ic_dl_folder",
   "item-check":["url", "image", "name"],
   "item-action":"app-sou://site?type=maxCard&title={name}&rule=https://cislone.github.io/app-sou/site-rule/nangua_meizi_site_image_view_rule.json&url={url}",
+  "item-view-template":{
+    "nameVisibleType":"",
+    "descVisibleType":"",
+    "nameRenderType":"",
+    "descRenderType":"",
+    "imageScaleType":"",
+    "imagePlaceholder":"ic_dl_folder"
+  },
   "item":{
     "selector":"tbody[id^=normalthread_]",
     "fun":"",
