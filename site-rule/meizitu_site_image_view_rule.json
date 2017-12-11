@@ -47,7 +47,9 @@
     "desc":{
       "selector":"this",
       "fun":"attr",
-      "param":"alt"
+      "param":"alt",
+      "regex":"<(S*?)[^>]*>.*?|<.*? />",
+      "replacement":""
     }
   }
 }
