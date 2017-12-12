@@ -23,7 +23,7 @@
     "param":""
   },
   "item-check":["image"],
-  "item-action":"app-sou://site?type=photoView&title={name}&rule={site}",
+  "item-action":"app-sou://image?title={name}&url={image}&images={item-images}",
   "item-view-template":{
     "nameVisibleType":"none",
     "descVisibleType":"none",
