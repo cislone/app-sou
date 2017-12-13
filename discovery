@@ -28,7 +28,7 @@
 	},{
         "image":"http://m.mp4pa.com/mp42.jpg",
         "name":"在线视频",
-        "url":"app-sou://web?bar=1&adblock=1&title=在线视频&url=http://www.mp4pa.com/index.html"
+        "url":"app-sou://site?type=simple&title=在线视频&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fmp4ba_site_rule.json%3f_t%3d201712051613"
     }, {
         "image":"http://m.mp4pa.com/mp42.jpg",
         "name":"177漫画",
