@@ -103,42 +103,6 @@
       "name":"比基尼",
       "desc":"",
       "rule":""
-    }, {
-      "url":"http://www.meizitu.com/a/qizhi_53_1.html",
-      "image":"",
-      "name":"气质",
-      "desc":"",
-      "rule":""
-    }, {
-      "url":"http://www.meizitu.com/a/banluo_5_1.html",
-      "image":"",
-      "name":"半裸",
-      "desc":"",
-      "rule":""
-    }, {
-      "url":"http://www.meizitu.com/a/nvshen_460_1.html",
-      "image":"",
-      "name":"女神",
-      "desc":"",
-      "rule":""
-    }, {
-      "url":"http://www.meizitu.com/a/quanluo_4_1.html",
-      "image":"",
-      "name":"全裸",
-      "desc":"",
-      "rule":""
-    }, {
-      "url":"http://www.meizitu.com/a/meitun_42_1.html",
-      "image":"",
-      "name":"美臀",
-      "desc":"",
-      "rule":""
-    }, {
-      "url":"http://www.meizitu.com/a/chengshu_487_1.html",
-      "image":"",
-      "name":"成熟",
-      "desc":"",
-      "rule":""
     }
   ],
   "item-check":["url", "image"],
@@ -146,8 +110,8 @@
   "item-view-template":{
     "nameVisibleType":"empty_none",
     "descVisibleType":"empty_none",
-    "nameRenderType":"html",
-    "descRenderType":"html",
+    "nameRenderType":"",
+    "descRenderType":"",
     "imageScaleType":"",
     "imagePlaceholder":"ic_dl_image"
   },
