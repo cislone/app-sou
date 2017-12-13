@@ -25,25 +25,29 @@
   },
   "category":[
     {
-      "url":"app-sou://site?type=miniCard&title=首页&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2f177_site_rule.json%3f_t%3d10000",
+      "url":"http://www.177piczz.info/",
       "image":"",
       "name":"首页",
-      "desc":""
+      "desc":"",
+      "rule":""
     }, {
-      "url":"app-sou://site?type=miniCard&title=全彩CG&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2f177_site_rule.json%3f_t%3d10000&url=http://www.177piczz.info/html/category/cg",
+      "url":"http://www.177piczz.info/html/category/cg",
       "image":"",
       "name":"全彩CG",
-      "desc":""
+      "desc":"",
+      "rule":""
     }, {
-      "url":"app-sou://site?type=miniCard&title=中文成人H漫畫&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2f177_site_rule.json%3f_t%3d10000&url=http://www.177piczz.info/html/category/tt",
+      "url":"http://www.177piczz.info/html/category/tt",
       "image":"",
       "name":"中文成人H漫畫",
-      "desc":""
+      "desc":"",
+      "rule":""
     }, {
-      "url":"app-sou://site?type=miniCard&title=日文成人H漫畫&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2f177_site_rule.json%3f_t%3d10000&url=http://www.177piczz.info/html/category/jj",
+      "url":"http://www.177piczz.info/html/category/jj",
       "image":"",
       "name":"日文成人H漫畫",
-      "desc":""
+      "desc":"",
+      "rule":""
     }
   ],
   "item-check":["url", "image"],
