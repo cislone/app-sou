@@ -12,15 +12,10 @@
     "fun":"text",
     "param":""
   },
-  "prev":{
-    "selector":"",
-    "fun":"",
-    "param":""
-  },
   "next":{
-    "selector":"",
-    "fun":"",
-    "param":""
+    "selector":"div.wp-pagenavi p a:contains(下一页)",
+    "fun":"attr",
+    "param":"href"
   },
   "item-check":["image"],
   "item-action":"app-sou://image?title={name}&url={image}&images={item-images}",
@@ -33,16 +28,16 @@
     "imagePlaceholder":"ic_dl_image"
   },
   "item":{
-    "selector":"div.entry-content",
+    "selector":"div.entry-content p img",
     "fun":"",
     "param":"",
     "url":{
-      "selector":"p img",
+      "selector":"this",
       "fun":"attr",
       "param":"src"
     },
     "image":{
-      "selector":"p img",
+      "selector":"this",
       "fun":"attr",
       "param":"src"
     },
