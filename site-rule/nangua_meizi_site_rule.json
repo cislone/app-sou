@@ -46,8 +46,8 @@
       "selector":"th img",
       "fun":"attr",
       "param":"src",
-      "regex":"(.*)",
-      "replacement":"android.resource://drawable/ic_dl_folder"
+      "regex":"",
+      "replacement":""
     },
     "name":{
       "selector":"th a",
