@@ -23,7 +23,7 @@
     "fun":"attr",
     "param":"href"
   },
-  "item-check":["url", "image", "name"],
+  "item-check":["url", "name"],
   "item-action":"app-sou://site?type=maxCard&title={name}&rule=https://cislone.github.io/app-sou/site-rule/nangua_meizi_site_image_view_rule.json&url={url}",
   "item-view-template":{
     "nameVisibleType":"",
@@ -43,9 +43,9 @@
       "param":"href"
     },
     "image":{
-      "selector":"th img",
-      "fun":"attr",
-      "param":"src",
+      "selector":"",
+      "fun":"",
+      "param":"",
       "regex":"",
       "replacement":""
     },
