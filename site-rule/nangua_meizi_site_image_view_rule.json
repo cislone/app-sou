@@ -33,16 +33,16 @@
     "imagePlaceholder":"ic_dl_image"
   },
   "item":{
-    "selector":"ignore_js_op",
+    "selector":"ignore_js_op img[file]",
     "fun":"",
     "param":"",
     "url":{
-      "selector":"img",
+      "selector":"this",
       "fun":"attr",
       "param":"file"
     },
     "image":{
-      "selector":"img",
+      "selector":"this",
       "fun":"attr",
       "param":"file"
     },
