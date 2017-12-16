@@ -14,7 +14,7 @@
     "param":""
   },
   "next":{
-    "selector":"",
+    "selector":"div.page a:contains(下一页)",
     "fun":"attr",
     "param":"href"
   },
