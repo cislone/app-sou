@@ -39,7 +39,7 @@
     "url":{
       "selector":"a[href~=^[http[s]].*\\.mp4$]",
       "fun":"attr",
-      "param":"src"
+      "param":"href"
     },
     "image":{
       "selector":"img.vm",
