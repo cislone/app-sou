@@ -29,7 +29,7 @@
     "descVisibleType":"",
     "nameRenderType":"",
     "descRenderType":"html",
-    "imageScaleType":"",
+    "imageScaleType":"scale_fit_x",
     "imagePlaceholder":"ic_dl_video"
   },
   "item":{
@@ -37,7 +37,7 @@
     "fun":"",
     "param":"",
     "url":{
-      "selector":"a[href~=^[http[s]].*\.mp4$]",
+      "selector":"a[href~=^[http[s]].*\\.mp4$]",
       "fun":"attr",
       "param":"src"
     },
