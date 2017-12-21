@@ -28,7 +28,7 @@
 	},{
         "image":"http://www.ygdy8.com/images/logo.gif",
         "name":"电影天堂",
-        "url":"app-sou://site?type=simple&title=电影天堂&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fygdy_site_rule.json%3f_t%3d201712051640"
+        "url":"app-sou://site?type=simple&title=电影天堂&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fygdy_site_rule.json%3f_t%3d20171205140"
     }, {
         "image":"http://m.mp4pa.com/mp42.jpg",
         "name":"177漫画",
