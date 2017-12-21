@@ -33,7 +33,7 @@
     "imagePlaceholder":"ic_dl_video"
   },
   "item":{
-    "selector":"div.pct",
+    "selector":"div.pct div.pcb",
     "fun":"",
     "param":"",
     "url":{
