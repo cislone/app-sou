@@ -23,7 +23,7 @@
     "param":""
   },
   "item-check":["url"],
-  "item-action":"app-sou://video?title={name}&url={url}",
+  "item-action":"app-sou://download?title={name}&url={url}",
   "item-view-template":{
     "nameVisibleType":"",
     "descVisibleType":"",
