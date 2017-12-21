@@ -38,8 +38,8 @@
     "param":"",
     "url":{
       "selector":"tbody tr td a",
-      "fun":"attr",
-      "param":"text"
+      "fun":"text",
+      "param":""
     },
     "image":{
       "selector":"img",
