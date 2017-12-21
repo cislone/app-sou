@@ -66,7 +66,7 @@
     "fun":"",
     "param":"",
     "url":{
-      "selector":"b a",
+      "selector":"b a:matches((?=《)(.+?)(?<=》))",
       "fun":"attr",
       "param":"href"
     },
@@ -78,14 +78,14 @@
       "replacement":""
     },
     "name":{
-      "selector":"b a",
+      "selector":"b a:matches((?=《)(.+?)(?<=》))",
       "fun":"text",
       "param":"",
-      "regex":"",
+      "regex":"(?=《)(.+?)(?<=》)",
       "replacement":""
     },
     "desc":{
-      "selector":"tr td",
+      "selector":"b a:matches((?=《)(.+?)(?<=》))",
       "fun":"text",
       "param":""
     }
