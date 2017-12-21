@@ -66,7 +66,7 @@
     "fun":"",
     "param":"",
     "url":{
-      "selector":"b a.unlink",
+      "selector":"b a",
       "fun":"attr",
       "param":"href"
     },
@@ -78,7 +78,7 @@
       "replacement":""
     },
     "name":{
-      "selector":"b a.unlink",
+      "selector":"b a",
       "fun":"text",
       "param":"",
       "regex":"",
