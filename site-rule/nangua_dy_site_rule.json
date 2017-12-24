@@ -23,6 +23,33 @@
     "fun":"attr",
     "param":"href"
   },
+  "category":[
+    {
+      "url":"http://www.kan2008.com/forum-52-1.html",
+      "image":"",
+      "name":"电影",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.nangua2008.com/forum-67-1.html",
+      "image":"",
+      "name":"电视剧",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.nangua2008.com/forum-141-1.html",
+      "image":"",
+      "name":"美剧",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.nangua2008.com/forum-142-1.html",
+      "image":"",
+      "name":"韩剧",
+      "desc":"",
+      "rule":""
+    }
+  ],
   "item-check":["url", "name"],
   "item-action":"app-sou://site?type=maxCard&title={name}&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fnangua_dy_site_video_view_rule.json%3f_t%3d10000&url={url}",
   "item-view-template":{
