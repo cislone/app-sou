@@ -67,7 +67,7 @@
     "image":{
       "selector":"img",
       "fun":"attr",
-      "param":"src",
+      "param":"_src",
       "regex":"",
       "replacement":""
     },
