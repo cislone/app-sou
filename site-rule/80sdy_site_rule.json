@@ -52,7 +52,7 @@
     "descVisibleType":"",
     "nameRenderType":"",
     "descRenderType":"",
-    "imageScaleType":"",
+    "imageScaleType":"fit_xy",
     "imagePlaceholder":"ic_dl_video"
   },
   "item":{
