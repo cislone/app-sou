@@ -47,12 +47,12 @@
       "param":"src"
     },
     "name":{
-      "selector":"div#minfo.clearfix div.info",
-      "fun":"html",
+      "selector":"",
+      "fun":"",
       "param":""
     },
     "desc":{
-      "selector":"div.clearfix",
+      "selector":"div#minfo.clearfix div.info",
       "fun":"html",
       "param":"",
       "regex":"",
