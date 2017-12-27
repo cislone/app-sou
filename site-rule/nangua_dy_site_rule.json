@@ -63,7 +63,7 @@
   "item":{
     "selector":"tbody[id^=normalthread_]",
     "fun":"",
-    "param":""
+    "param":"",
     "url":{
       "selector":"th a",
       "fun":"attr",
