@@ -22,6 +22,7 @@
     "fun":"",
     "param":""
   },
+  "sniffType":1,
   "item-check":["url"],
   "item-action":"app-sou://download?url={url}&referrer={referrer}",
   "item-view-template":{
