@@ -64,7 +64,9 @@
     "image":{
       "selector":"img.joke-main-img",
       "fun":"attr",
-      "param":"src"
+      "param":"src",
+      "regex":"(small|normal)",
+      "replacement":"big"
     },
     "name":{
       "selector":"",
