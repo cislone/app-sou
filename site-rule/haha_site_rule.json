@@ -47,7 +47,7 @@
     "imageVisibleType":"empty_none",
     "nameRenderType":"",
     "descRenderType":"",
-    "imageScaleType":"scale_fit_x",
+    "imageScaleType":"center",
     "imagePlaceholder":"default_image"
   },
   "item":{
