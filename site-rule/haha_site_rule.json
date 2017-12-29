@@ -14,7 +14,7 @@
     "param":""
   },
   "next":{
-    "selector":"a.nextpostslink",
+    "selector":"div.pagination a.pagination-link.pagination-next",
     "fun":"attr",
     "param":"href"
   },
@@ -47,7 +47,7 @@
     "imageVisibleType":"empty_none",
     "nameRenderType":"",
     "descRenderType":"",
-    "imageScaleType":"fit_xy|adjustViewBounds",
+    "imageScaleType":"adjustViewBounds",
     "imagePlaceholder":"default_image"
   },
   "item":{
