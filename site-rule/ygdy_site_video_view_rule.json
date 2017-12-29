@@ -12,16 +12,12 @@
     "fun":"text",
     "param":""
   },
-  "prev":{
-    "selector":"",
-    "fun":"",
-    "param":""
-  },
   "next":{
     "selector":"",
     "fun":"",
     "param":""
   },
+  "sniffType":1,
   "item-check":["url"],
   "item-action":"app-sou://download?title={name}&url={url}",
   "item-view-template":{
