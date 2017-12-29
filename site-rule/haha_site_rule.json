@@ -63,15 +63,15 @@
       "replacement":"big"
     },
     "name":{
-      "selector":"",
-      "fun":"",
+      "selector":"p.word-wrap.joke-main-content-text",
+      "fun":"text",
       "param":"",
       "regex":"",
       "replacement":""
     },
     "desc":{
-      "selector":"p.word-wrap.joke-main-content-text",
-      "fun":"text",
+      "selector":"",
+      "fun":"",
       "param":""
     }
   }
