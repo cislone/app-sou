@@ -39,5 +39,9 @@
         "url":"app-sou://site?type=miniCard&title=177漫画&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2f177_site_rule.json%3f_t%3d2017120516170",
         "r18":"1",
         "vip":"1"
-    }]
+    }, {
+         "image":"http://www.ygdy8.com/images/logo.gif",
+         "name":"9秀直播",
+         "url":"app-sou://site?type=miniCard&title=9秀直播&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2f9xiu_live_site_rule.json%3f_t%3d2017120516170"
+     }]
 }
