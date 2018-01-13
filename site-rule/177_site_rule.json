@@ -65,7 +65,7 @@
       "param":"href"
     },
     "image":{
-      "selector":"div.c-con a img",
+      "selector":"div.c-con a img[src$=.jpg]",
       "fun":"attr",
       "param":"src"
     },
