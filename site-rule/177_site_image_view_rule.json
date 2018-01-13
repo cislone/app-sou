@@ -28,7 +28,7 @@
     "imagePlaceholder":"ic_dl_image"
   },
   "item":{
-    "selector":"div.entry-content p img",
+    "selector":"div.entry-content p img[src$=.jpg]",
     "fun":"",
     "param":"",
     "url":{
