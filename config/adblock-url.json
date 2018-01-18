@@ -1,9 +1,9 @@
 {
   "comments":"adblock",
   "data": [{
-      "page":"^http://m.ac.qq.com",
+      "page":"^http://m.ac.qq.com.*",
       "rule":[
-        "^http://ui.ptlogin2.qq.com/cgi-bin/login"
+        "^http://ui.ptlogin2.qq.com/cgi-bin/login.*"
       ]
     }, {
       "page":"",
