@@ -35,6 +35,7 @@
   ],
   "item-check":[],
   "item-action":"app-sou://image?url={url}&images={item-urls}",
+  "item-long-action":"app-sou://share?title=每日一笑&text={name}&image={image}",
   "item-view-template":{
     "nameVisibleType":"empty_none",
     "descVisibleType":"empty_none",
