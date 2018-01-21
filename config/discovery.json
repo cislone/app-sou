@@ -14,6 +14,10 @@
         "name":"美女写真",
         "url":"app-sou://site?type=simple&title=美女写真&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fnangua_meizi_site_rule.json%3f_t%3d201712051627"
     },{
+      "image":"http://www.kan2008.com/data/attachment/forum/201712/05/105930hs29s8zq9s75z8s2.jpg",
+      "name":"妹子图",
+      "url":"app-sou://site?type=simple&title=妹子图&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fmmjpg_site_rule.json%3f_t%3d201712051627"
+    },{
 		"image":"https://gtimg.ac.qq.com/h5/public/images/share-icon.png",
 		"name":"腾讯动漫",
 		"url":"app-sou://web?url=http://m.ac.qq.com&ua=&js=https://cislone.github.io/app-sou/js/txdm.js&bar=0"
