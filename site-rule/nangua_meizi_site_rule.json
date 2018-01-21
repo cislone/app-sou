@@ -25,6 +25,7 @@
   },
   "item-check":["url", "name"],
   "item-action":"app-sou://site?type=maxCard&title={name}&rule=https://cislone.github.io/app-sou/site-rule/nangua_meizi_site_image_view_rule.json&url={url}",
+  "item-long-action":"app-sou://share?title=美女分享&text={name}&url={image}&image={image}",
   "item-view-template":{
     "nameVisibleType":"",
     "descVisibleType":"",

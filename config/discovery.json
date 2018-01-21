@@ -14,13 +14,13 @@
         "name":"美女写真",
         "url":"app-sou://site?type=simple&title=美女写真&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fnangua_meizi_site_rule.json%3f_t%3d201712051627"
     },{
-      "image":"http://i.meizitu.net/2018/01/20c01.jpg",
-      "name":"妹子图",
-      "url":"app-sou://site?type=miniCard&title=妹子图&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fmzitu_site_rule.json%3f_t%3d201712051627"
+        "image":"http://www.kan2008.com/data/attachment/forum/201801/20/120821oonraooal7rao7r1.jpg",
+        "name":"妹子大全",
+        "url":"app-sou://site?type=miniCard&title=妹子大全&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fmzitu_site_rule.json%3f_t%3d201712051627"
     },{
-      "image":"http://img.mmjpg.com/small/2018/1232.jpg",
-      "name":"妹子图",
-      "url":"app-sou://site?type=miniCard&title=妹子图&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fmmjpg_site_rule.json%3f_t%3d2017120516207"
+        "image":"http://img.mmjpg.com/small/2018/1232.jpg",
+        "name":"妹子图",
+        "url":"app-sou://site?type=miniCard&title=妹子图&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fmmjpg_site_rule.json%3f_t%3d2017120516207"
     },{
 		"image":"https://gtimg.ac.qq.com/h5/public/images/share-icon.png",
 		"name":"腾讯动漫",

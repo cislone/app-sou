@@ -24,6 +24,7 @@
   },
   "item-check":["image"],
   "item-action":"app-sou://image?title={name}&url={image}&images={item-images}",
+  "item-long-action":"app-sou://share?title=美女分享&text={name}&url={image}&image={image}",
   "item-view-template":{
     "nameVisibleType":"none",
     "descVisibleType":"none",
