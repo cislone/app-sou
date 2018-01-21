@@ -50,21 +50,21 @@
     "imagePlaceholder":"ic_dl_image"
   },
   "item":{
-    "selector":"div.main div.pic",
+    "selector":"div.main div.pic li",
     "fun":"",
     "param":"",
     "url":{
-      "selector":"li a",
+      "selector":"a",
       "fun":"attr",
       "param":"href"
     },
     "image":{
-      "selector":"li img",
+      "selector":"img",
       "fun":"attr",
       "param":"src"
     },
     "name":{
-      "selector":"li img",
+      "selector":"img",
       "fun":"attr",
       "param":"alt",
       "regex":"",
