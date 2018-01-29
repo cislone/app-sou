@@ -102,9 +102,10 @@ local function request(category)
 					.. "&url=" .. this:urlEncode(url)
 					.. "&action=" .. this:urlEncode(action)
 					.. "&actionText=" .. this:urlEncode("搜资源")
-				
+				local imageAction = ""
+
 				if image ~= "" and name ~= "" then
-					category.loader:addItem(url, image, name, desc, action, longAction)
+					category.loader:addItem(url, image, name, desc, action, longAction, imageAction)
 				end
 			end
 		end

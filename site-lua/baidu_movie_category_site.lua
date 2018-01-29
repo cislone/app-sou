@@ -139,9 +139,10 @@ local function request(loadItem)
 					.. "&url=" .. this:urlEncode(url)
 					.. "&action=" .. this:urlEncode(action)
 					.. "&actionText=" .. this:urlEncode("搜资源")
-				
+				local imageAction = ""
+
 				if image ~= "" and name ~= "" and limit < 9 then
-					loadItem.loader:addItem(url, image, name, desc, action, longAction)
+					loadItem.loader:addItem(url, image, name, desc, action, longAction, imageAction)
 					limit = limit + 1
 				end
 			end
