@@ -34,7 +34,7 @@
     }
   ],
   "item-check":[],
-  "item-action":"app-sou://actionSheet?title=更多操作&cancel=取消&action=分享&分享=app-sou%3a%2f%2fshare%3ftitle%3d%e6%af%8f%e6%97%a5%e4%b8%80%e7%ac%91%26text%3d{name}%26image%3d{image}&action=查看来源&查看来源={url}",
+  "item-action":"app-sou://actionSheet?title=更多操作&cancel=取消&action=分享&%e5%88%86%e4%ba%ab=app-sou%3a%2f%2fshare%3ftitle%3d%e6%af%8f%e6%97%a5%e4%b8%80%e7%ac%91%26text%3d{name}%26image%3d{image}&action=查看来源&%e6%9f%a5%e7%9c%8b%e6%9d%a5%e6%ba%90%e9%a1%b5={url}",
   "item-image-action":"app-sou://image?url={image}&images={item-urls}",
   "item-long-action":"app-sou://share?title=每日一笑&text={name}&image={image}",
   "item-view-template":{
