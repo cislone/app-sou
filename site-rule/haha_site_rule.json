@@ -55,7 +55,7 @@
       "fun":"attr",
       "param":"jid",
       "regex":".*",
-      "replacement":"https://www.haha.mx/joke/$1"
+      "replacement":""
     },
     "image":{
       "selector":"img.joke-main-img",
