@@ -54,8 +54,8 @@
       "selector":"this",
       "fun":"attr",
       "param":"jid",
-      "regex":".*",
-      "replacement":""
+      "regex":"(^[0-9]*$)",
+      "replacement":"https://www.haha.mx/joke/$1"
     },
     "image":{
       "selector":"img.joke-main-img",
