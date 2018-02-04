@@ -2,7 +2,7 @@
   "comment":"global config",
   "enableAdblock": false,
   "review":{
-    "Test_1.0.1": false
+    "Test_1.0.1": true
   },
   "mainActivityFragments": [
     {
