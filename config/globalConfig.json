@@ -2,7 +2,7 @@
   "comment":"global config",
   "enableAdblock": false,
   "review":{
-    "Test": false
+    "Test_1.0.1": false
   },
   "mainActivityFragments": [
     {
@@ -15,7 +15,7 @@
       "name":"寻缘",
       "image":"android.resource://drawable/home_tab_xy_selector",
       "fragment":"app-sou://roomGroup",
-      "visible": 0
+      "visible": 1
     }, {
       "name":"发现",
       "image":"android.resource://drawable/home_tab_fx_selector",
