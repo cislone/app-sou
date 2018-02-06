@@ -7,22 +7,27 @@
   "mainActivityFragments": [
     {
       "name":"首页",
-      "image":"android.resource://drawable/home_tab_sy_selector",
+      "image":"android.resource://drawable/home_tab_sy",
       "fragment":"app-sou://home",
       "visible": 0,
       "vip": false
     }, {
       "name":"寻缘",
-      "image":"android.resource://drawable/home_tab_xy_selector",
+      "image":"android.resource://drawable/home_tab_xy",
       "fragment":"app-sou://roomGroup",
       "visible": 1
     }, {
       "name":"发现",
-      "image":"android.resource://drawable/home_tab_fx_selector",
+      "image":"android.resource://drawable/home_tab_fx",
       "fragment":"app-sou://discovery"
     }, {
+      "name":"哈哈",
+      "image":"android.resource://drawable/home_tab_face",
+      "fragment":"app-sou://site?type=tuWenCard&title=哈哈&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fhaha_site_rule.json%3f_t%3d20171205161071",
+      "visible":2
+    }, {
       "name":"我的",
-      "image":"android.resource://drawable/home_tab_wd_selector",
+      "image":"android.resource://drawable/home_tab_wd",
       "fragment":"app-sou://mine"
     }
   ],
