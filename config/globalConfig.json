@@ -23,7 +23,7 @@
     }, {
       "name":"哈哈",
       "image":"android.resource://drawable/home_tab_face_selector",
-      "fragment":"app-sou://site?type=tuWenCard&title=哈哈&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fhaha_site_rule.json%3f_t%3d20171205161071",
+      "fragment":"app-sou://site?type=tuWenCard&title=哈哈&bar=0x21&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fhaha_site_rule.json%3f_t%3d20171205161071",
       "visible":2
     }, {
       "name":"我的",
