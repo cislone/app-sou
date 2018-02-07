@@ -41,7 +41,7 @@
     "nameVisibleType":"empty_none",
     "descVisibleType":"empty_none",
     "imageVisibleType":"empty_none",
-    "nameRenderType":"lineSpacingExtra:5dp lineSpacingMultiplier:1.0 text",
+    "nameRenderType":"lineSpacingExtra:3dp lineSpacingMultiplier:1.0 text",
     "descRenderType":"",
     "imageScaleType":"fit_xy",
     "imagePlaceholder":"default_image"
