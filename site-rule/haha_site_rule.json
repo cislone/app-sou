@@ -42,7 +42,7 @@
     "descVisibleType":"empty_none",
     "imageVisibleType":"empty_none",
     "nameRenderType":"",
-    "descRenderType":"",
+    "descRenderType":"size:13dp lineSpacingExtra:5dp lineSpacingMultiplier:1.0 text",
     "imageScaleType":"fit_xy",
     "imagePlaceholder":"default_image"
   },
