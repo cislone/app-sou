@@ -27,12 +27,12 @@
         "url":"app-sou://site?type=miniCard&title=妹子图&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fmmjpg_site_rule.json%3f_t%3d2017120516207",
         "visible":2
     },{
-		"image":"https://gtimg.ac.qq.com/h5/public/images/share-icon.png",
+		"image":"https://cislone.github.io/app-sou/icon/timg.jpeg",
 		"name":"腾讯动漫",
 		"url":"app-sou://web?url=http://m.ac.qq.com&ua=&js=https://cislone.github.io/app-sou/js/txdm.js&bar=0",
         "visible":2
 	},{		
-	    "image":"https://img2.km.com/bookimg/public/images/cover/58ca/thumb4/71489_large.jpg",		
+	    "image":"https://cislone.github.io/app-sou/icon/book.png",
 		"name":"小说书城",
 		"url":"app-sou://web?ua=&js=&bar=0&adblock=1&url=http://dushu.m.baidu.com/",
         "visible":2
@@ -52,14 +52,14 @@
         "url":"app-sou://site?type=miniCard&title=80s电影&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2f80sdy_site_rule.json%3f_t%3d20171251610",
         "visible":0
     }, {
-        "image":"https://yuedust.yuedu.126.net/comic_static/web/images/logo.svg?6032f676931c93931fedaca8a19336fd",
+        "image":"https://cislone.github.io/app-sou/icon/timg.jpeg",
         "name":"177漫画",
         "url":"app-sou://site?type=miniCard&title=177漫画&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2f177_site_rule.json%3f_t%3d201712051617",
         "r18":"1",
         "vip":"0",
         "visible":2
     }, {
-        "image":"https://static.haha.mx/images/logo_v3.png",
+        "image":"https://cislone.github.io/app-sou/icon/face.png",
         "name":"哈哈",
         "url":"app-sou://site?type=tuWenCard&title=哈哈&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fhaha_site_rule.json%3f_t%3d20171205161071",
         "visible":2
