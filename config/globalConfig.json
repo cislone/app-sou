@@ -2,7 +2,8 @@
   "comment":"global config",
   "enableAdblock": false,
   "review":{
-    "Test_1.0.0": true
+    "Test_1.0.0": true,
+    "xiaomi_1.0.0": true
   },
   "mainActivityFragments": [
     {
