@@ -94,6 +94,13 @@
       "rule":"assets://engine/ybsou_site_rule.json",
       "url":"http://www.ybsou.org/s/{keywords-url-encode}.html",
       "visible":0
+    }, {
+      "type":"movie",
+      "name":"souboyun",
+      "engine":"jsoup",
+      "rule":"assets://engine/souboyun_site_rule.json",
+      "url":"http://www.souboyun.cn/list/?wd={keywords-url-encode}",
+      "visible":0
     }]
   }]
 }
