@@ -100,6 +100,13 @@
       "engine":"jsoup",
       "rule":"assets://engine/souboyun_site_rule.json",
       "url":"http://www.souboyun.cn/list/?wd={keywords-url-encode}",
+      "visible":1
+    }, {
+      "type":"movie",
+      "name":"ciliba",
+      "engine":"jsoup",
+      "rule":"assets://engine/ciliba_site_rule.json",
+      "url":"https://www.ciliba.org/s/{keywords-url-encode}.html",
       "visible":0
     }]
   }]
