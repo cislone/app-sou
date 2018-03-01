@@ -3,7 +3,7 @@
   "enableAdblock": false,
   "review":{
     "Test_1.0.10": true,
-    "xiaomi_1.0.10": true,
+    "xiaomi_1.0.10": false,
     "yingyongbao_1.0.10": true,
     "huawei_1.0.10": true
   },
