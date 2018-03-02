@@ -5,7 +5,8 @@
     "Test_1.0.10": true,
     "xiaomi_1.1.20": true,
     "yingyongbao_1.0.10": true,
-    "huawei_1.0.10": true
+    "huawei_1.0.10": true,
+    "huawei_1.1.20": true
   },
   "mainActivityFragments": [
     {
