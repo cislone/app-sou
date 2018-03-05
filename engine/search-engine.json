@@ -21,7 +21,7 @@
     "view":"mediumCard",
     "rule":"assets://engine/cicimai_site_rule.json",
     "url":"site://param?body=wd%3d{keywords-url-encode}",
-    "visible":2
+    "visible":0
   }, {
     "type":"video",
     "name":"在线视频",
@@ -48,7 +48,7 @@
     "view":"mediumCard",
     "rule":"assets://engine/baidu_dushu_site.lua",
     "url":"book://param?keyword={keywords-url-encode}",
-    "visible":2
+    "visible":0
   }, {
     "type":"video",
     "name":"高清MP4",
@@ -86,7 +86,7 @@
     "desc":"更多",
     "engine":"complex",
     "view":"simple",
-    "visible":2,
+    "visible":0,
     "engines": [{
       "type":"movie",
       "name":"ybsou",
