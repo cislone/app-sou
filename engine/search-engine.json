@@ -21,7 +21,7 @@
     "view":"mediumCard",
     "rule":"assets://engine/cicimai_site_rule.json",
     "url":"site://param?body=wd%3d{keywords-url-encode}",
-    "visible":0
+    "visible":2
   }, {
     "type":"video",
     "name":"在线视频",
@@ -86,7 +86,7 @@
     "desc":"更多",
     "engine":"complex",
     "view":"simple",
-    "visible":0,
+    "visible":2,
     "engines": [{
       "type":"movie",
       "name":"ybsou",
