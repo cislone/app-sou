@@ -39,7 +39,7 @@
     {
       "name":"热映",
       "image":"",
-      "fragment":"app-sou://site?siteType=lua-common&type=miniCard&title=热映&rule=assets://site-lua/douban_nowintheater_movie_page_site.lua&url=movie%3a%2f%2fparam%3f"
+      "fragment":"app-sou://site?siteType=lua-common&type=miniCard&title=热映&rule=https://cislone.github.io/app-sou/site-lua/douban_nowintheater_movie_page_site.lua&url=movie%3a%2f%2fparam%3f"
     },{
       "name":"电影",
       "image":"",
