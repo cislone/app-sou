@@ -37,6 +37,11 @@
   ],
   "homePageFragments": [
     {
+      "name":"热映",
+      "image":"",
+      "fragment":"app-sou://site?siteType=lua-common&type=miniCard&title=热映&rule=https://cislone.github.io/app-sou/site-lua/douban_nowintheater_movie_page_site.lua&url=movie%3a%2f%2fparam%3f",
+      "visible":2
+    },{
       "name":"电影",
       "image":"",
       "fragment":"app-sou://site?siteType=lua-common&type=categoryPreview-miniCard&title=电影&rule=https://cislone.github.io/app-sou/site-lua/baidu_movie_category_site.lua&url=movie%3a%2f%2fparam%3fquery%3d%e7%94%b5%e5%bd%b1%26type%3d0"
