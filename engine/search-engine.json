@@ -39,7 +39,7 @@
     "view":"mediumCard",
     "rule":"assets://engine/bdsee_site_rule.json",
     "url":"http://www.bdsee.cn/?s={keywords-url-encode}",
-    "visible":2
+    "visible":0
   }, {
     "type":"book",
     "name":"小说",
@@ -48,7 +48,7 @@
     "view":"mediumCard",
     "rule":"assets://engine/baidu_dushu_site.lua",
     "url":"book://param?keyword={keywords-url-encode}",
-    "visible":0
+    "visible":2
   }, {
     "type":"video",
     "name":"高清MP4",
