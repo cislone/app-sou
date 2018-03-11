@@ -7,7 +7,7 @@
     "supports":[
       {
         "name":"爱奇艺",
-        "regex":"^(?:http|https):\/\/(?:m|www).iqiyi.com\/(.*)(.html)$"
+        "regex":"^(?:http|https):\/\/(?:m|www).iqiyi.com\/(.*)(.html)(.*)$"
       }
     ],
     "rule":"",
