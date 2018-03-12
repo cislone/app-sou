@@ -1,16 +1,34 @@
 {
   "comments":"parse engine define file, [visible=1 is gone] [visible=2 is review device gone]",
   "engines":[{
-    "name":"解析源1",
+    "name":"播放源1",
     "desc":"更多",
     "engine":"web",
     "supports":[
       {
         "name":"爱奇艺",
         "regex":"^(?:http|https):\/\/(?:m|www).iqiyi.com\/(.*)(.html)(.*)$"
+      }, {
+        "name":"搜狐",
+        "regex":"^(?:http|https):\/\/m.film.sohu.com\/album\/(.*)(.html)(.*)$"
       }
     ],
     "rule":"",
     "url":"http://api.baiyug.cn/vip/index.php?url={url-encode}"
+  }, {
+    "name":"播放源2",
+    "desc":"更多",
+    "engine":"web",
+    "supports":[
+      {
+        "name":"爱奇艺",
+        "regex":"^(?:http|https):\/\/(?:m|www).iqiyi.com\/(.*)(.html)(.*)$"
+      }, {
+        "name":"搜狐",
+        "regex":"^(?:http|https):\/\/m.film.sohu.com\/album\/(.*)(.html)(.*)$"
+      }
+    ],
+    "rule":"",
+    "url":"http://jx.ejiafarm.com/dy.php?url={url-encode}"
   }]
 }
