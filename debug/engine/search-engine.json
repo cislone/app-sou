@@ -10,7 +10,7 @@
     "url":"{keywords}"
   }, {
     "type":"video",
-    "name":"在线影视",
+    "name":"在线视频",
     "desc":"更多",
     "engine":"complex",
     "view":"mediumCard",
@@ -32,6 +32,15 @@
       "view":"mediumCard",
       "rule":"assets://engine/quanji888_site_rule.json",
       "url":"site://param?body=wd%3d{keywords-url-encode}",
+      "visible":2
+    }, {
+      "type":"video",
+      "name":"天天影院",
+      "desc":"更多",
+      "engine":"jsoup",
+      "view":"mediumCard",
+      "rule":"assets://engine/ttvdo_site_rule.json",
+      "url":"http://www.ttvdo.com/?s={keywords-url-encode}",
       "visible":2
     }, {
       "type":"video",
