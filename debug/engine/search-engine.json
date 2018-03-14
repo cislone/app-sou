@@ -9,63 +9,57 @@
     "rule":"default",
     "url":"{keywords}"
   }, {
-    "type":"app",
-    "name":"应用",
-    "engine":"lua",
-    "visible":1
-  }, {
     "type":"video",
-    "name":"热剧网",
+    "name":"在线影视",
     "desc":"更多",
-    "engine":"jsoup",
+    "engine":"complex",
     "view":"mediumCard",
-    "rule":"assets://engine/cicimai_site_rule.json",
-    "url":"site://param?body=wd%3d{keywords-url-encode}",
-    "visible":2
-  }, {
-    "type":"video",
-    "name":"在线视频",
-    "desc":"更多",
-    "engine":"jsoup",
-    "view":"mediumCard",
-    "rule":"assets://engine/quanji888_site_rule.json",
-    "url":"site://param?body=wd%3d{keywords-url-encode}",
-    "visible":2
+    "visible":2,
+    "engines": [{
+      "type":"video",
+      "name":"热剧网",
+      "desc":"更多",
+      "engine":"jsoup",
+      "view":"mediumCard",
+      "rule":"assets://engine/cicimai_site_rule.json",
+      "url":"site://param?body=wd%3d{keywords-url-encode}",
+      "visible":2
+    }, {
+      "type":"video",
+      "name":"全集网",
+      "desc":"更多",
+      "engine":"jsoup",
+      "view":"mediumCard",
+      "rule":"assets://engine/quanji888_site_rule.json",
+      "url":"site://param?body=wd%3d{keywords-url-encode}",
+      "visible":2
+    }, {
+      "type":"video",
+      "name":"高清MP4",
+      "desc":"更多",
+      "engine":"jsoup",
+      "view":"simple",
+      "rule":"assets://engine/mp4pa_site_rule.json",
+      "url":"site://param?body=searchword%3d{keywords-url-encode}",
+      "visible":2
+    }]
   }, {
     "type":"video",
     "name":"影视下载",
     "desc":"更多",
-    "engine":"jsoup",
-    "view":"mediumCard",
-    "rule":"assets://engine/bdsee_site_rule.json",
-    "url":"http://www.bdsee.cn/?s={keywords-url-encode}",
-    "visible":0
-  }, {
-    "type":"book",
-    "name":"小说",
-    "desc":"更多",
-    "engine":"lua",
-    "view":"mediumCard",
-    "rule":"assets://engine/baidu_dushu_site.lua",
-    "url":"book://param?keyword={keywords-url-encode}",
-    "visible":2
-  }, {
-    "type":"video",
-    "name":"高清MP4",
-    "desc":"更多",
-    "engine":"jsoup",
-    "view":"simple",
-    "rule":"assets://engine/mp4pa_site_rule.json",
-    "url":"site://param?body=searchword%3d{keywords-url-encode}",
-    "visible":2
-  }, {
-    "type":"video",
-    "name":"电影下载",
-    "desc":"更多",
     "engine":"complex",
-    "view":"simple",
+    "view":"mediumCard",
     "visible":0,
     "engines": [{
+      "type":"video",
+      "name":"bdsee",
+      "desc":"更多",
+      "engine":"jsoup",
+      "view":"mediumCard",
+      "rule":"assets://engine/bdsee_site_rule.json",
+      "url":"http://www.bdsee.cn/?s={keywords-url-encode}",
+      "visible":0
+    }, {
       "type":"movie",
       "name":"80s",
       "engine":"jsoup",
@@ -80,6 +74,15 @@
       "url":"http://s.dydytt.net/plus/search.php?kwtype=0&keyword={keywords-url-encode-gb2312}",
       "visible":0
     }]
+  }, {
+    "type":"book",
+    "name":"小说",
+    "desc":"更多",
+    "engine":"lua",
+    "view":"mediumCard",
+    "rule":"assets://engine/baidu_dushu_site.lua",
+    "url":"book://param?keyword={keywords-url-encode}",
+    "visible":2
   }, {
     "type":"video",
     "name":"磁力搜索",
