@@ -16,7 +16,7 @@
         "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
       }, {
         "name":"腾讯视频",
-        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/x\/cover\/(.*)(.html)(.*)$"
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
       }
     ],
     "rule":"",
@@ -37,7 +37,7 @@
         "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
       }, {
         "name":"腾讯视频",
-        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/x\/cover\/(.*)(.html)(.*)$"
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
       }
     ],
     "rule":"",
@@ -58,7 +58,7 @@
         "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
       }, {
         "name":"腾讯视频",
-        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/x\/cover\/(.*)(.html)(.*)$"
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
       }
     ],
     "rule":"",
@@ -79,7 +79,7 @@
         "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
       }, {
         "name":"腾讯视频",
-        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/x\/cover\/(.*)(.html)(.*)$"
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
       }
     ],
     "rule":"",
@@ -100,7 +100,7 @@
         "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
       }, {
         "name":"腾讯视频",
-        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/x\/cover\/(.*)(.html)(.*)$"
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
       }
     ],
     "rule":"",
@@ -121,7 +121,7 @@
         "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
       }, {
         "name":"腾讯视频",
-        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/x\/cover\/(.*)(.html)(.*)$"
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
       }
     ],
     "rule":"",
@@ -142,7 +142,7 @@
         "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
       }, {
         "name":"腾讯视频",
-        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/x\/cover\/(.*)(.html)(.*)$"
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
       }
     ],
     "rule":"",
@@ -163,7 +163,7 @@
         "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
       }, {
         "name":"腾讯视频",
-        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/x\/cover\/(.*)(.html)(.*)$"
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
       }
     ],
     "rule":"",
