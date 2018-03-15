@@ -31,7 +31,7 @@
     "nameVisibleType":"empty_none",
     "descVisibleType":"",
     "nameRenderType":"",
-    "descRenderType":"",
+    "descRenderType":"html",
     "imageScaleType":"",
     "imagePlaceholder":"ic_dl_video"
   },
@@ -45,7 +45,7 @@
       "param":"href"
     },
     "image":{
-      "selector":"div.list-poster a",
+      "selector":"div.list-poster a img",
       "fun":"attr",
       "param":"data-original",
       "regex":"",
@@ -60,7 +60,7 @@
     },
     "desc":{
       "selector":"div.list-poster",
-      "fun":"text",
+      "fun":"html",
       "param":""
     }
   }
