@@ -1,6 +1,5 @@
 {
   "comment":"global config",
-  "enableAd": true,
   "enableAdBlock": false,
   "review":{
     "Test_1.0.10": true,
