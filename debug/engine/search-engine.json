@@ -39,7 +39,7 @@
       "desc":"更多",
       "engine":"jsoup",
       "view":"mediumCard",
-      "rule":"assets://engine/ttvdo_site_rule.json",
+      "rule":"https://cislone.github.io/app-sou/engine/ttvdo_site_rule.json",
       "url":"http://www.ttvdo.com/?s={keywords-url-encode}",
       "visible":2
     }, {
@@ -103,7 +103,7 @@
       "type":"movie",
       "name":"ybsou",
       "engine":"jsoup",
-      "rule":"https://cislone.github.io/app-sou/engine/ybsou_site_rule.json",
+      "rule":"assets://engine/ybsou_site_rule.json",
       "url":"http://www.ybsou.org/s/{keywords-url-encode}.html",
       "visible":0
     }, {
