@@ -103,7 +103,7 @@
       "type":"movie",
       "name":"ybsou",
       "engine":"jsoup",
-      "rule":"assets://engine/ybsou_site_rule.json",
+      "rule":"https://cislone.github.io/app-sou/engine/ybsou_site_rule.json",
       "url":"http://www.ybsou.org/s/{keywords-url-encode}.html",
       "visible":0
     }, {
