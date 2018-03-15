@@ -39,7 +39,7 @@
       "desc":"更多",
       "engine":"jsoup",
       "view":"mediumCard",
-      "rule":"assets://engine/ttvdo_site_rule.json",
+      "rule":"https://cislone.github.io/app-sou/engine/ttvdo_site_rule.json",
       "url":"http://www.ttvdo.com/?s={keywords-url-encode}",
       "visible":2
     }, {
