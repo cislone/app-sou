@@ -9161,3 +9161,6 @@
 127.0.0.1 trackersimulator.org
 127.0.0.1 eviltracker.net
 127.0.0.1 do-not-tracker.org
+
+# [user define]
+127.0.0.1 j.dipowang.cn
