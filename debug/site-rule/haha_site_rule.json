@@ -83,6 +83,21 @@
       "selector":"",
       "fun":"",
       "param":""
+    },
+    "avatar":{
+      "selector":"img.joke-user-info-avatar-img",
+      "fun":"attr",
+      "param":"src"
+    },
+    "nick":{
+      "selector":"a.inline-block.joke-user-info-nickname",
+      "fun":"text",
+      "param":""
+    },
+    "date":{
+      "selector":"span.joke-user-info-create-time",
+      "fun":"text",
+      "param":""
     }
   }
 }
