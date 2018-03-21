@@ -48,11 +48,11 @@
     "imageScaleType":"fit_xy",
     "imagePlaceholder":"default_image",
 
-    "nameRenderType":"size:16dp lineSpacingExtra:3dp lineSpacingMultiplier:1.0 text",
+    "nameRenderType":"textSize:16dp lineSpacingExtra:3dp lineSpacingMultiplier:1.0 text",
     "descRenderType":"",
 
-    "nickRenderType":"",
-    "dateRenderType":""
+    "nickRenderType":"textSize:15dp text",
+    "dateRenderType":"textSize:13dp text"
   },
   "item":{
     "selector":"div.joke-list-item",
