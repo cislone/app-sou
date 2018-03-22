@@ -41,10 +41,18 @@
     "nameVisibleType":"empty_none",
     "descVisibleType":"empty_none",
     "imageVisibleType":"empty_none",
-    "nameRenderType":"lineSpacingExtra:3dp lineSpacingMultiplier:1.0 text",
-    "descRenderType":"",
+    "avatarVisibleType":"",
+    "nickVisibleType":"",
+    "dateVisibleType":"",
+
     "imageScaleType":"fit_xy",
-    "imagePlaceholder":"default_image"
+    "imagePlaceholder":"default_image",
+
+    "nameRenderType":"textSize:16dp lineSpacingExtra:3dp lineSpacingMultiplier:1.0 text",
+    "descRenderType":"",
+
+    "nickRenderType":"textSize:15dp text",
+    "dateRenderType":"textSize:13dp text"
   },
   "item":{
     "selector":"div.joke-list-item",
@@ -74,6 +82,21 @@
     "desc":{
       "selector":"",
       "fun":"",
+      "param":""
+    },
+    "avatar":{
+      "selector":"img.joke-user-info-avatar-img",
+      "fun":"attr",
+      "param":"src"
+    },
+    "nick":{
+      "selector":"a.inline-block.joke-user-info-nickname",
+      "fun":"text",
+      "param":""
+    },
+    "date":{
+      "selector":"span.joke-user-info-create-time",
+      "fun":"text",
       "param":""
     }
   }
