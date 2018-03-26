@@ -3,7 +3,7 @@
   "enableAdBlock": false,
   "review":{
     "Test_1.0.10": true,
-    "xiaomi_1.6.90": true,
+    "xiaomi_1.6.90": false,
     "anzhi_1.2.30": true,
     "zhushou_1.2.30": true,
     "appchina_1.2.30": true
