@@ -1,0 +1,62 @@
+{
+  "comment":"global config",
+  "enableAdBlock": false,
+  "review":{
+    "Test_1.0.10": true,
+    "xiaomi_1.6.90": false,
+    "anzhi_1.2.30": true,
+    "zhushou_1.2.30": true,
+    "appchina_1.2.30": true
+  },
+  "mainActivityFragments": [
+    {
+      "name":"ལྡེབ་ངོས་མགོ་མ་",
+      "image":"android.resource://drawable/home_tab_sy_selector",
+      "fragment":"app-sou://home",
+      "visible": 0,
+      "vip": false
+    }, {
+      "name":"མཐའ་འཚོལ་བ་།",
+      "image":"android.resource://drawable/home_tab_xy_selector",
+      "fragment":"app-sou://roomGroup",
+      "visible": 1
+    }, {
+      "name":"ཧ་ཧ་",
+      "image":"android.resource://drawable/home_tab_face_selector",
+      "fragment":"app-sou://site?type=tuWenCard2&title=ཧ་ཧ་&bar=0x21&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fxizang%2fsite-rule%2fhaha_site_rule.json%3f_t%3d20171205161071",
+      "visible":2
+    }, {
+      "name":"རྙེད་པ་",
+      "image":"android.resource://drawable/home_tab_fx_selector",
+      "fragment":"app-sou://discovery"
+    }, {
+      "name":"ངའི་",
+      "image":"android.resource://drawable/home_tab_wd_selector",
+      "fragment":"app-sou://mine"
+    }
+  ],
+  "homePageFragments": [
+    {
+      "name":"སྟོན་གྲངས་མང་བ་",
+      "image":"",
+      "fragment":"app-sou://site?siteType=lua-common&type=miniCard&title=སྟོན་གྲངས་མང་བ་&rule=https://cislone.github.io/app-sou/xizang/site-lua/douban_nowintheater_movie_page_site.lua&url=movie%3a%2f%2fparam%3f",
+      "visible":2
+    },{
+      "name":"གློག་བརྙན་",
+      "image":"",
+      "fragment":"app-sou://site?siteType=lua-common&type=categoryPreview-miniCard&title=གློག་བརྙན་&rule=https://cislone.github.io/app-sou/xizang/site-lua/baidu_movie_category_site.lua&url=movie%3a%2f%2fparam%3fquery%3d%e7%94%b5%e5%bd%b1%26type%3d0"
+    }, {
+      "name":"བརྙན་འཕྲིན་",
+      "image":"",
+      "fragment":"app-sou://site?siteType=lua-common&type=categoryPreview-miniCard&title=བརྙན་འཕྲིན་&rule=https://cislone.github.io/app-sou/xizang/site-lua/baidu_movie_category_site.lua&url=movie%3a%2f%2fparam%3fquery%3d%e7%94%b5%e8%a7%86%e5%89%a7%26type%3d0"
+    }, {
+      "name":"འགུལ་བརྙན་",
+      "image":"",
+      "fragment":"app-sou://site?siteType=lua-common&type=categoryPreview-miniCard&title=འགུལ་བརྙན་&rule=https://cislone.github.io/app-sou/xizang/site-lua/baidu_movie_category_site.lua&url=movie%3a%2f%2fparam%3fquery%3d%e5%8a%a8%e7%94%bb%e7%89%87%e5%a4%a7%e5%85%a8%26type%3d0"
+    }, {
+      "name":"ཕྱོགས་བསྡུས་སྒྱུ་རྩལ་",
+      "image":"",
+      "fragment":"app-sou://site?siteType=lua-common&type=categoryPreview-miniCard&title=ཕྱོགས་བསྡུས་སྒྱུ་རྩལ་&rule=https://cislone.github.io/app-sou/xizang/site-lua/baidu_movie_category_site.lua&url=movie%3a%2f%2fparam%3fquery%3d%e7%bb%bc%e8%89%ba%26type%3d0"
+    }
+  ]
+}
