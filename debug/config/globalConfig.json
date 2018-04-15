@@ -16,6 +16,11 @@
       "visible": 0,
       "vip": false
     }, {
+      "name":"测试",
+      "image":"android.resource://drawable/home_tab_xy_selector",
+      "fragment":"app-sou://custom?url=assets://config/fragments_custom_page.json",
+      "visible": 0
+    }, {
       "name":"寻缘",
       "image":"android.resource://drawable/home_tab_xy_selector",
       "fragment":"app-sou://roomGroup",
