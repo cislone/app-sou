@@ -2,8 +2,8 @@
   "type":"",
   "url":"",
   "method":"",
-  "userAgent":"Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Mobile Safari/537.36",
-  "referrer":"http://www.ttvdo.com/",
+  "userAgent":"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Mobile Safari/537.36",
+  "referrer":"http://www.ybsou.org/",
   "timeout":0,
   "header":[],
   "cookie":[],
@@ -19,48 +19,48 @@
     "param":""
   },
   "next":{
-    "selector":"a:contains(下一页)",
+    "selector":"div.main div.pg a:contains(下一页)",
     "fun":"attr",
     "param":"href"
   },
   "category":[],
   "item-check":["url", "name"],
-  "item-action":"",
+  "item-action":"app-sou://sniffer?sniff=true&ua=Mozilla%2f5.0+(Linux%3b+Android+5.0%3b+SM-G900P+Build%2fLRX21T)+AppleWebKit%2f537.36+(KHTML%2c+like+Gecko)+Chrome%2f63.0.3239.132+Mobile+Safari%2f537.36&url={url}",
   "item-long-action":"app-sou://webPreview?title={name}&url={url}&action={url}&actionText=查看",
   "item-view-template":{
-    "nameVisibleType":"empty_none",
+    "nameVisibleType":"",
     "descVisibleType":"",
     "nameRenderType":"",
-    "descRenderType":"html",
+    "descRenderType":"",
     "imageScaleType":"",
-    "imagePlaceholder":"ic_dl_video"
+    "imagePlaceholder":"ic_dl_magnet"
   },
   "item":{
-    "selector":"article.u-movie",
+    "selector":"div.main ul.mlist li",
     "fun":"",
     "param":"",
     "url":{
-      "selector":"div.list-poster a",
+      "selector":"a",
       "fun":"attr",
       "param":"href"
     },
     "image":{
-      "selector":"div.list-poster a img",
-      "fun":"attr",
-      "param":"data-original",
+      "selector":"",
+      "fun":"",
+      "param":"",
       "regex":"",
       "replacement":""
     },
     "name":{
-      "selector":"h2 a",
+      "selector":"a",
       "fun":"text",
       "param":"",
       "regex":"",
       "replacement":""
     },
     "desc":{
-      "selector":"div.list-poster",
-      "fun":"html",
+      "selector":"dt",
+      "fun":"text",
       "param":""
     }
   }

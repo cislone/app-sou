@@ -2,8 +2,8 @@
   "type":"",
   "url":"",
   "method":"",
-  "userAgent":"Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Mobile Safari/537.36",
-  "referrer":"http://www.ttvdo.com/",
+  "userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+  "referrer":"http://www.ygdy8.com/",
   "timeout":0,
   "header":[],
   "cookie":[],
@@ -19,48 +19,48 @@
     "param":""
   },
   "next":{
-    "selector":"a:contains(下一页)",
+    "selector":"div.co_content8 tr a:contains(下一页)",
     "fun":"attr",
     "param":"href"
   },
   "category":[],
   "item-check":["url", "name"],
-  "item-action":"",
+  "item-action":"app-sou://site?type=maxCard&title={name}&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fygdy_site_video_view_rule.json%3f_t%3d10000&url={url}",
   "item-long-action":"app-sou://webPreview?title={name}&url={url}&action={url}&actionText=查看",
   "item-view-template":{
-    "nameVisibleType":"empty_none",
+    "nameVisibleType":"",
     "descVisibleType":"",
     "nameRenderType":"",
-    "descRenderType":"html",
+    "descRenderType":"",
     "imageScaleType":"",
     "imagePlaceholder":"ic_dl_video"
   },
   "item":{
-    "selector":"article.u-movie",
+    "selector":"div.co_content8 tr a:matches((?=《)(.+?)(?<=》))",
     "fun":"",
     "param":"",
     "url":{
-      "selector":"div.list-poster a",
+      "selector":"this",
       "fun":"attr",
       "param":"href"
     },
     "image":{
-      "selector":"div.list-poster a img",
-      "fun":"attr",
-      "param":"data-original",
-      "regex":"",
-      "replacement":""
-    },
-    "name":{
-      "selector":"h2 a",
-      "fun":"text",
+      "selector":"",
+      "fun":"",
       "param":"",
       "regex":"",
       "replacement":""
     },
+    "name":{
+      "selector":"this",
+      "fun":"text",
+      "param":"",
+      "regex":"(?=《)(.+?)(?<=》)",
+      "replacement":""
+    },
     "desc":{
-      "selector":"div.list-poster",
-      "fun":"html",
+      "selector":"this",
+      "fun":"text",
       "param":""
     }
   }

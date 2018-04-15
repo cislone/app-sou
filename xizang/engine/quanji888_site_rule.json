@@ -1,12 +1,18 @@
 {
   "type":"",
-  "url":"",
-  "method":"",
-  "userAgent":"Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Mobile Safari/537.36",
-  "referrer":"http://www.ttvdo.com/",
+  "url":"http://m.quanji888.com/index.php?s=vod-search",
+  "method":"post",
+  "userAgent":"Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Mobile Safari/537.36",
+  "referrer":"http://m.quanji888.com/index.html",
   "timeout":0,
   "header":[],
-  "cookie":[],
+  "cookie":[{
+    "key":"PHPSESSID",
+    "value":"ctr09brafsaoho7kaic03iahj1"
+  }, {
+    "key":"safedog-flow-item",
+    "value":""
+  }],
   "data":[],
   "title":{
     "selector":"title",
@@ -19,12 +25,12 @@
     "param":""
   },
   "next":{
-    "selector":"a:contains(下一页)",
+    "selector":"div.main a.next.pagegbk",
     "fun":"attr",
     "param":"href"
   },
   "category":[],
-  "item-check":["url", "name"],
+  "item-check":["url", "desc"],
   "item-action":"",
   "item-long-action":"app-sou://webPreview?title={name}&url={url}&action={url}&actionText=查看",
   "item-view-template":{
@@ -36,30 +42,30 @@
     "imagePlaceholder":"ic_dl_video"
   },
   "item":{
-    "selector":"article.u-movie",
+    "selector":"div.main li",
     "fun":"",
     "param":"",
     "url":{
-      "selector":"div.list-poster a",
+      "selector":"a",
       "fun":"attr",
       "param":"href"
     },
     "image":{
-      "selector":"div.list-poster a img",
+      "selector":"img",
       "fun":"attr",
       "param":"data-original",
       "regex":"",
       "replacement":""
     },
     "name":{
-      "selector":"h2 a",
-      "fun":"text",
-      "param":"",
+      "selector":"a",
+      "fun":"attr",
+      "param":"title",
       "regex":"",
       "replacement":""
     },
     "desc":{
-      "selector":"div.list-poster",
+      "selector":"div.list_info",
       "fun":"html",
       "param":""
     }
