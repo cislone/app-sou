@@ -25,7 +25,7 @@
   },
   "category":[],
   "item-check":["url", "name"],
-  "item-action":"",
+  "item-action":"app-sou://mediaDetail?title={name}&url={url}&rule=assets://site-detail/ttvdo_site_detail_rule.json",
   "item-long-action":"app-sou://webPreview?title={name}&url={url}&action={url}&actionText=查看",
   "item-view-template":{
     "nameVisibleType":"empty_none",
