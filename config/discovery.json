@@ -7,7 +7,7 @@
       "r18":false,
       "visible":2
     },{
-      "image":"http://img.mmjpg.com/small/2018/1232.jpg",
+      "image":"https://cislone.github.io/app-sou/icon/meizi.jpg",
       "name":"妹子图",
       "url":"app-sou://site?type=miniCard&title=妹子图&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fmmjpg_site_rule.json%3f_t%3d2017120516207",
       "r18":false,
@@ -65,7 +65,7 @@
     },{
       "image":"https://cislone.github.io/app-sou/icon/face.png",
       "name":"哈哈",
-      "url":"app-sou://site?type=tuWenCard&title=哈哈&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fhaha_site_rule.json%3f_t%3d20171205161071",
+      "url":"app-sou://site?type=tuWenCard&title=哈哈&rule=https%3a%2f%2fcislone.github.io%2fapp-sou%2fsite-rule%2fhaha_site_rule.json%3f_t%3d20171205161073",
       "visible":2
     }]
 }
