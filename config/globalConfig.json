@@ -44,15 +44,21 @@
     },{
       "name":"电影",
       "image":"",
-      "fragment":"app-sou://site?siteType=lua-common&type=categoryPreview-miniCard&title=电影&rule=https://cislone.github.io/app-sou/site-lua/baidu_movie_category_site.lua&url=movie%3a%2f%2fparam%3fquery%3d%e7%94%b5%e5%bd%b1%26type%3d0"
+      "fragment":"app-sou://site?siteType=lua-common&type=miniCard&title=电影&rule=https://cislone.github.io/app-sou/site-lua/douban_movie_page_site.lua&url=movie%3a%2f%2fparam%3f"
+    },{
+      "name":"高分",
+      "image":"",
+      "fragment":"app-sou://site?siteType=lua-common&type=miniCard&title=高分&rule=https://cislone.github.io/app-sou/site-lua/douban_movie_page_site.lua&url=movie%3a%2f%2fparam%3ftag%3d%e8%b1%86%e7%93%a3%e9%ab%98%e5%88%86"
     }, {
       "name":"电视",
       "image":"",
-      "fragment":"app-sou://site?siteType=lua-common&type=categoryPreview-miniCard&title=电视&rule=https://cislone.github.io/app-sou/site-lua/baidu_movie_category_site.lua&url=movie%3a%2f%2fparam%3fquery%3d%e7%94%b5%e8%a7%86%e5%89%a7%26type%3d0"
+      "fragment":"app-sou://site?siteType=lua-common&type=categoryPreview-miniCard&title=电视&rule=https://cislone.github.io/app-sou/site-lua/baidu_movie_category_site.lua&url=movie%3a%2f%2fparam%3fquery%3d%e7%94%b5%e8%a7%86%e5%89%a7%26type%3d0",
+      "visible": 1
     }, {
       "name":"动漫",
       "image":"",
-      "fragment":"app-sou://site?siteType=lua-common&type=categoryPreview-miniCard&title=动漫&rule=https://cislone.github.io/app-sou/site-lua/baidu_movie_category_site.lua&url=movie%3a%2f%2fparam%3fquery%3d%e5%8a%a8%e7%94%bb%e7%89%87%e5%a4%a7%e5%85%a8%26type%3d0"
+      "fragment":"app-sou://site?siteType=lua-common&type=categoryPreview-miniCard&title=动漫&rule=https://cislone.github.io/app-sou/site-lua/baidu_movie_category_site.lua&url=movie%3a%2f%2fparam%3fquery%3d%e5%8a%a8%e7%94%bb%e7%89%87%e5%a4%a7%e5%85%a8%26type%3d0",
+      "visible": 1
     }, {
       "name":"综艺",
       "image":"",
