@@ -23,7 +23,7 @@
       "view":"mediumCard",
       "rule":"assets://engine/cicimai_site_rule.json",
       "url":"site://param?body=wd%3d{keywords-url-encode}",
-      "visible":2
+      "visible":1
     }, {
       "type":"video",
       "name":"全集网",
@@ -91,7 +91,7 @@
     "view":"mediumCard",
     "rule":"assets://engine/baidu_dushu_site.lua",
     "url":"book://param?keyword={keywords-url-encode}",
-    "visible":2
+    "visible":1
   }, {
     "type":"video",
     "name":"磁力搜索",
