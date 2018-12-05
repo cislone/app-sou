@@ -1,18 +1,12 @@
 {
   "type":"",
-  "url":"http://m.quanji888.com/index.php?s=vod-search",
+  "url":"http://m.kp2000.com/index.php?s=vod-search",
   "method":"post",
   "userAgent":"Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Mobile Safari/537.36",
-  "referrer":"http://m.quanji888.com/index.html",
+  "referrer":"http://m.kp2000.com/index.html",
   "timeout":0,
   "header":[],
-  "cookie":[{
-    "key":"PHPSESSID",
-    "value":"ctr09brafsaoho7kaic03iahj1"
-  }, {
-    "key":"safedog-flow-item",
-    "value":""
-  }],
+  "cookie":[],
   "data":[],
   "title":{
     "selector":"title",

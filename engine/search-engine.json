@@ -26,22 +26,22 @@
       "visible":2
     }, {
       "type":"video",
-      "name":"热剧网",
-      "desc":"更多",
-      "engine":"jsoup",
-      "view":"mediumCard",
-      "rule":"assets://engine/cicimai_site_rule.json",
-      "url":"site://param?body=wd%3d{keywords-url-encode}",
-      "visible":1
-    }, {
-      "type":"video",
       "name":"全集网",
       "desc":"更多",
       "engine":"jsoup",
       "view":"mediumCard",
-      "rule":"assets://engine/quanji888_site_rule.json",
+      "rule":"https://cislone.github.io/app-sou/engine/quanji888_site_rule.json",
       "url":"site://param?body=wd%3d{keywords-url-encode}",
-      "visible":1
+      "visible":2
+    }, {
+      "type":"video",
+      "name":"热剧网",
+      "desc":"更多",
+      "engine":"jsoup",
+      "view":"mediumCard",
+      "rule":"https://cislone.github.io/app-sou/engine/cicimai_site_rule.json",
+      "url":"site://param?body=wd%3d{keywords-url-encode}",
+      "visible":2
     }, {
       "type":"video",
       "name":"天天影院",
@@ -59,7 +59,7 @@
       "view":"simple",
       "rule":"assets://engine/mp4pa_site_rule.json",
       "url":"site://param?body=searchword%3d{keywords-url-encode}",
-      "visible":2
+      "visible":1
     }]
   }, {
     "type":"video",
