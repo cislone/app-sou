@@ -32,7 +32,7 @@
       "view":"mediumCard",
       "rule":"assets://engine/quanji888_site_rule.json",
       "url":"site://param?body=wd%3d{keywords-url-encode}",
-      "visible":2
+      "visible":1
     }, {
       "type":"video",
       "name":"天天影院",
