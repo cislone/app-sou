@@ -69,8 +69,8 @@
       "selector":"img.joke-main-img",
       "fun":"attr",
       "param":"data-original",
-      "regex":"",
-      "replacement":""
+      "regex":"normal",
+      "replacement":"middle"
     },
     "name":{
       "selector":"p.word-wrap.joke-main-content-text",
